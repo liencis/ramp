@@ -17,8 +17,8 @@ def get_url_char(x_list, ref):
             if el == 'ref':
                 ref += s_list[i + 2]
     return ref
-# Copied HTML out form "insigts" from browswer 
-# formated it in lines like nice HTML and saved it in find.txt file
+# Copied HTML out from "insights" from browser
+# formatted it in lines like nice HTML and saved it in find.txt file
 with open("find.txt") as f:
     ref = ""
     for x in f:
